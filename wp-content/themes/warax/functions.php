@@ -18,5 +18,5 @@ function warax_theme_setup () {
     register_nav_menu('secondary', 'Footer menu navigation');
 }
 
-add_action('init', 'warax_theme_setup');
+add_action('after_setup_theme', 'warax_theme_setup');
 
