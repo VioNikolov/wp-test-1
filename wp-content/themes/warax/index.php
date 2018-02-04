@@ -7,7 +7,9 @@
             <b><?php the_title(); ?></b>
             <small>Posted on: <?php the_time('F j, Y'); ?> in <?php the_category(); ?></small>
             <?php the_content(); ?>
-        <hr>
+            <hr>
+
+
         <?php endwhile; ?>
 
 

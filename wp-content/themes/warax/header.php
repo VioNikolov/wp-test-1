@@ -16,5 +16,6 @@
 <?php endif; ?>
 
 <body <?php body_class($body_class); ?> >
+<div class="container">
 <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
 
